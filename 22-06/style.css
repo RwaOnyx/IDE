@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    word-spacing: 5em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+.id {
+    display: inline-block;
+}
+.contact {
+    display: inline-block;
+}
+
+option {
+    text-align: center;
+    font-family: Impact;
+    background-color: bisque;
+}
+
+input {
+    font-family: Impact;
+    background-color: bisque;
+    font-size: 1em;
+}
+
+textarea {
+    background-color: bisque;
+    font-size: 3em;
+}
+
+select {
+    text-align: center;
+    font-family: Impact;
+    background-color: bisque;
+    font-size: 1em;
+}
+
+a {
+    color: aliceblue;
+    text-shadow: 0.02em 0 0 gray, 0.02em 0.02em 0 gray, 0 0.02em 0 gray, -0.02em 0.02em 0 gray, -0.02em 0 0 gray, -0.02em -0.02em 0 gray, 0 -0.02em 0 gray, 0.02em -0.02em 0 gray;
+}
+
+body {
+    font-size: 3em;
+    background-color: #d8c9c9;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concour 3WA</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Produit</a>
+        <a href="#">Contact</a>
+    </header>
+    <main><h1>Contact</h1><div>
+        <label for="civilite">Civilité</label>
+        <select name="civilite" id="civilite">
+            <option value ="Monsieur">Monsieur</option>
+            <option value="Madame">Madame</option>
+        </select>
+    </div>
+    <div class="id">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" value="Bon" onFocus="this.value='';">
+            
+    
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" value="Jean" onFocus="this.value='';">
+    </div>
+    <div>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="mail" value="Jean@bon.fr" onFocus="this.value='';">
+    
+        <label for="tel">Tel</label>
+        <input type="phone" id="tel" name="tel" value="0612345678" onFocus="this.value='';">
+    </div>
+    <div>
+        <label for="msg">Votre message :</label>
+        <textarea id="msg" name="message" value="Ce que vous avez à dire" onFocus="this.value='';"></textarea>
+    </div>
+</main>
+  </body>
+</html>
